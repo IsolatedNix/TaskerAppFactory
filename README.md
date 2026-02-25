@@ -4,3 +4,4 @@ POC for fixing Tasker App Factory issue of not being able to build apks that hav
 
 Bootstrap zips are compiled for `net.dinglisch.android.appfactory` package as per https://github.com/termux/termux-packages/wiki/For-maintainers#build-bootstrap-archives with the packages `aapt`, `zip` and `unzip` only and only support android `>= 7`, with additional files removed manually. The bootstrap zips cannot be used in other app packages or will get linker errors due to wrong `$PREFIX` of libraries.
 ##
+
